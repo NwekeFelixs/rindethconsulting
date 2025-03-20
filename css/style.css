@@ -893,45 +893,67 @@ body {
 /*-----------------------------------*\
   #GALLERY
 \*-----------------------------------*/
-
-.gallery-card {
-  height: 430px;
-  padding: 20px;
-  padding-block-start: 50px;
+.tagline {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  color: #333;
+  padding: 40px 0;
 }
 
-.gallery-card::after {
-  top: 0;
-  left: 0;
+.tagline h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 2.5rem;
+}
+
+.tagline a {
+  display: block;
+  width: max-content;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 30px;
+}
+
+.image-grid-wrapper {
+  position: relative;
+  overflow: hidden;
   width: 100%;
-  height: 100%;
-  background-color: var(--bistre);
-  opacity: 0.5;
-  z-index: -1;
-  transition: var(--transition-1);
+  --x-offset: -50px;
+  --y-offset: -50px;
 }
 
-.gallery-card:is(:hover, :focus-within)::after { opacity: 0.7; }
-
-.gallery-card .card-content {
-  display: grid;
-  align-content: space-between;
-  height: 100%;
+.image-grid-wrapper::before,
+.image-grid-wrapper::after {
+  content: "";
+  background-color: #eeecec;;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  /* background-color: red; */
 }
 
-.gallery-card .card-title { color: var(--white); }
+.image-grid-wrapper::before {
+  inset: var(--y-offset) var(--x-offset) 0;
+}
 
-.gallery-card .btn-link {
-  color: var(--white);
+.image-grid-wrapper::after {
+  inset: 0 var(--x-offset) var(--y-offset);
+  top: unset;
+}
+
+.image-grid {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: var(--transition-1);
+  gap: 20px;
+  overflow-x: scroll;
 }
 
-.btn-link:is(:hover, :focus-visible) { color: var(--french-bistre); }
-
-
+.image-grid img {
+ height: 400px; 
+}
 
 
 
@@ -942,10 +964,6 @@ body {
 .blog .section-text { margin-block: 20px 36px; }
 
 .blog .grid-list { gap: 30px; }
-
-.blog-card .card-banner { border-radius: 50px 50px 0 0; }
-
-.blog-card .img-cover { will-change: transform; }
 
 .blog-card:is(:hover, :focus-within) .img-cover {
   transform: scale(1.05) rotate(2deg);
