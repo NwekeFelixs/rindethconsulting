@@ -14,6 +14,7 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 
 
+
 /**
  * MOBILE NAVBAR TOGGLE
  */
@@ -26,6 +27,7 @@ const toggleNav = function () {
   navbar.classList.toggle("active");
   overlay.classList.toggle("active");
 }
+
 
 addEventOnElements(navTogglers, "click", toggleNav);
 
