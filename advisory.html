@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Rindeth Consulting</title>
+  <meta name="title" content="Rindeth Consulting">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rosario:wght@500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-2.jpg">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" style="background: var(--black);"><img src="/images/logo.png" width="120px" height="30px"></a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="management.html" class="navbar-link">Management Team</a>
+          </li>
+
+          <li>
+            <a href="advisory.html" class="navbar-link">Advisory Board</a>
+
+          <li>
+            <a href="events.html" class="navbar-link">Our Events</a>
+          </li>
+
+          <li>
+            <a href="services.html" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-aos="fade-right">
+              Strategic Solutions For
+              <span class="span">Lasting Success</span>
+            </h1>
+
+            <p class="section-text" data-aos="fade-left" style="margin-right: 20px;">
+                At Rindeth Consulting Limited, we are dedicated to providing exceptional services that cater to the diverse needs of our clients. Our expertise spans various critical areas, ensuring we deliver tailored solutions to foster growth and success. Here’s an overview of the services we offer
+            </p>
+
+            <a href="#services" class="btn" data-aos="fade-right">
+              <span class="span">See More</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <div class="wrapper" data-aos="fade-left">
+            <div class="hero-banner-1 img-holder" style="--width: 400; --height: 550;">
+              <img src="./images/boss.jpg" width="400" height="550"
+                alt="" class="img-cover">
+            </div>
+
+            <div class="hero-banner-2 img-holder" style="--width: 500; --height: 850;">
+              <img src="./images/service-1.jpg" width="500" height="850" alt="ceramic craft ware"
+                class="img-cover">
+            </div>
+
+            <img src="./images/hero-shape.png" width="570" height="676" alt="laves" class="shape">
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TEAM
+      -->
+      <section class="section team">
+        <div class="container">
+          <h2 class="h2 section-title" style="text-align: center; margin-bottom: 30px;">Meet Our Advisory Board Members</h2>
+          <div class="team__cards">
+      
+            <!-- Team Member Card -->
+            <div class="team__card">
+              <img src="./images/advisory-1.jpg" alt="Team Member" class="team__image">
+              <h3 class="team__name">Dr. (Mrs.) Nnenna Adaeze Orji</h3>
+              <p class="team__position">Advisory Board Member </p>
+              <div class="team__socials">
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <p class="team__text">
+                Dr. (Mrs.) Nnenna Adaeze Orji is a distinguished Economist, Lawyer, and Jurist with a wealth of experience in the financial and legal sectors. She holds a B.A (Hons.) in Economics & Business Administration from Howard University, Washington DC, USA; Doctor of Jurisprudence (J.D) from Howard University, School of Law, USA; and LLM Degree with emphasis on corporate and commercial law from New York University (NYU), School of Law, New York.
+                <br>
+
+                <span class="more-text">
+                  Dr. Orji began her career in the United States, working as a Legal Research Associate at Prentice Hall, New Jersey, and later as a Legal Assistant in the Division of Program Analysis, Office of the Governor, State of New Jersey. She also served as a Decision Writer & Hearing Officer at the Department of Law & Public Safety.
+
+                  Upon her return to Nigeria, Dr. Orji started private legal practice at the firm of Jessie Nwabueze & Co, specializing in corporate law and representing banks, commercial institutions, and government organizations. In 1984, she joined the Securities and Exchange Commission (SEC) Nigeria as the pioneer head of the Legal division and later became the Head of Enforcement Unit.
+                  
+                  Under her leadership, the Legal & Enforcement department transformed the Securities and Exchange Commission into a world-class knowledge-based regulatory agency. Dr. Orji was also the pioneer Executive Chairman of the Investments and Securities Tribunal, Nigeria (IST).
+                  
+                  Currently, Dr. Orji is the Managing Consultant at the Law Firm of Arial Associates and the CEO and Co-founder of the Herbert Onye Orji Foundation (HOOF). She guides the organization toward a vision to educate, empower, and establish entrepreneurial opportunities for young adults and small business owners.
+                  
+                  Dr. Orji is a member of several professional associations, including the Nigerian Bar Association (NBA), International Bar Association (IBA), National Association of Court Managers (NACM) USA, International Federation of Women Lawyers (FIDA), and the American Bar Association. 
+                  
+                  She served as Chairman of Gadol Finance Company limited and now a Director of Gadol Group as well as Chairman of One Trust Asset Management Company Ltd, a subsidiary of the Gadol Group of Companies.
+                  Dr Orji is a philanthropist with several decades of experience. As President of Healthcare Organization for Africa (HCOA); The Adure & Onyima Obioha Foundation (AOOF); Item Wimen Empowerment Initiative (IWEI) ; The Herbert Onye Orji Foundation (HOOF), she has positively transformed millions of lives in Nigeria.
+                </span>
+              </p>
+              <button class="btn read-more-btn">Read More</button>
+            </div>
+      
+            <!-- Repeat for other team members -->
+            <div class="team__card">
+              <img src="./images/advisory-3.jpg" alt="Team Member" class="team__image" style="align-content: first baseline;">
+              <h3 class="team__name">Daniel Owusu</h3>
+              <p class="team__position">Advisory Board Member</p>
+              <div class="team__socials">
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <p class="team__text">
+                Daniel Owusu is a dynamic, multi-award-winning youth development leader, instructional designer, and ecosystem builder shaping Africa’s innovation landscape. A ForbesBLK member, he has received training from Google, IBM, Harvard, Stanford, MIT Sloan, and McKinsey & Company.
+               <br>
+                <span class="more-text">
+                  With over a decade of experience spanning technology, digital transformation, innovation policy, venture building, and financial inclusion, Daniel has a proven track record of designing and executing transformative programs. His expertise extends to 4IR, digital skills, curriculum development, productivity systems, and youth entrepreneurship, where he has spent the last 10 years mentoring and training emerging leaders.
+
+                  As a digital strategist, he has helped over 30+ Ghana Club 100 brands establish a strong digital presence and managed 32 tech innovation hubs across Ghana’s 16 regions. He spearheaded Ghana’s first comprehensive startup and ESOs ecosystem mapping and served as a consultant for the review of the country’s Science, Technology, and Innovation Policy.
+                  
+                  Daniel has provided strategic leadership for multi-million-dollar projects, digitally training over 10,000 youth, supporting 200 startups, and facilitating 528 internship placements. Recognized globally, he was a top 6 finalist at the WISE Social Innovators competition and 1st Runner-Up at WISE 2019 in Qatar.
+                  
+                  A World Economic Forum Global Shaper and the World Bank Ghana Youth Voices Lead, Daniel is committed to amplifying youth engagement in development. Passionate about education’s transformative power, he has impacted over 200,000 youth across Africa and Europe. He currently serves as Managing Partner at Misfits Consulting and was the National Innovation Consultant for the $28.5M UNDP-Mastercard Foundation Young Africa Innovates Program.
+                  
+                  Daniel leads the Enterprise Support and Transaction Advisory at Impact Investing Ghana
+                </span>
+              </p>
+              <button class="btn read-more-btn">Read More</button>
+            </div>
+
+            <div class="team__card">
+              <img src="./images/man.png" alt="Team Member" class="team__image">
+              <h3 class="team__name">Dr. Stanley Ejije Ibeku</h3>
+              <p class="team__position">Advisory Board Member</p>
+              <div class="team__socials">
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <p class="team__text">
+                Stanley Ejike Ibeku is a research consultant, data & information scientist and monitoring & evaluation specialist. He currently leads Monitoring, Evaluation, Research and Learning (MERL) at Enterprise Development Centre, Pan-Atlantic University Lagos, Nigeria where he also facilitates sessions in impact measurement, entrepreneurship, innovation, and venture creation both at executive education and undergraduate level.
+               <br>
+                <span class="more-text">
+                  Stanley has a doctorate degree in Data & Information specializing in Science, Technology and Innovation Studies from the Department of Data & Information Science, University of Ibadan, Nigeria where he obtained a Master of Information Science Degree. 
+
+                  Originally trained as an engineer, Stanley has been actively involved in research and consultancy including multi-country assignments for The British Council, Mastercard Foundation, Oxfam Novib, AFFORD-UK, Development Bank of Nigeria, etc. 
+                  
+                  Dr. Ibeku served as National Consultant on the evaluation of Participating Financial Institutions and MSMEs for the Development Bank of Nigeria and for Impact Credit Guarantee Ltd. His research focuses on innovation management, data management, entrepreneurship, strategy, sustainable development and circular economy. 
+                  
+                  Stanley has published scholarly publications and presentations in both local and international conferences
+                </span>
+              </p>
+              <button class="btn read-more-btn">Read More</button>
+            </div>
+      
+            <div class="team__card">
+              <img src="./images/advisory-4.jpg" alt="Team Member" class="team__image">
+              <h3 class="team__name">Dr. David Onuoha</h3>
+              <p class="team__position">Advisory Board Member</p>
+              <div class="team__socials">
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <p class="team__text">
+                Dr. David Onuoha is a highly sought after public speaker, consultant, lecturer and a youth Empowered expert.
+                He holds Bachelor of Urban and Regional planning (BURP) from Abia State University where he graduated with a first class result,  Master of Urban and Regional planning (MURP) from University of Ibadan with specialization in Environmental management.
+                <br>
+                <span class="more-text">
+                  Dr. Onuoha lectured in Urban and Regional planning department of Abia State University. He worked in Douala Cameroun as a secondment and youth trainer in World Mission Agency. He is a fellow of Nigeria Institute of Town Planners and a consultant to government of many nations on Youth matters.
+
+                  Dr. David Onuoha is an author of many bestselling books, board member of Joshua leadership forum and the president of Youth Empowerment Network International. He is the rector of school of financial Empowerment with headquarters in Umuahia Abia State through which he has raised many young entrepreneurs and financially independent youths not only in Nigeria but in other nations in Africa.
+                </span>
+              </p>
+              <button class="btn read-more-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- 
+        -- #SERVICES
+       -->
+
+     
+
+
+
+
+       <section class="section why">
+        <div class="container">
+            <h2 class="h2 section-title" style="text-align: center; margin-bottom: 30px;">Why Choose Us?</h2>
+            <div class="flex-container">
+                <div class="img-container">
+                    <img src="./images/why-img.jpg" alt="" style="opacity: 1;">
+                </div>
+
+                <div class="content-container">
+                    <div class="heading">
+                        <h4 class="h4 section-title">What We Offer</h4>
+                        <div class="line" style="width: 40%;"></div>
+                    </div>
+                    <p class="section-text">
+                        Choosing Rindeth Consulting Limited means partnering with a team that is genuinely invested in your success. We combine deep industry knowledge with innovative solutions and a client-centric approach. Our commitment to excellence ensures we deliver high-quality services that make a real difference to your business.
+                    </p>
+                    <p class="section-text">
+                        At Rindeth Consulting Limited, we are more than consultants; we are your strategic partners in achieving sustainable growth and lasting success. Let us help you navigate the path to success with clarity and confidence.
+                    </p>
+                </div>
+            </div>
+        </div>
+       </section>
+
+
+
+      <!-- 
+        - #SUBSCRIBE FOR OUR NEWSLETTERS
+      -->
+
+      <section class="section newsletter">
+        <div class="container">
+          <div class="flex-container">
+            <div class="content">
+              <h4 class="h4">Join Our Mailing List</h4>
+              <p>
+                At Rindeth Consulting, we don’t just give advice we create tailored solutions that drive business success <br>
+                Subscribe to our mailing list and be the first to know about any of our trainings and webinars.
+              </p>
+            </div>
+            <div class="news-form">
+              <input type="email" placeholder="email@mail.com">
+              <button class="btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo"><img src="/images/logo.png" width="120px" height="30px"></a>
+
+          <p class="footer-text">
+            At Rindeth Consulting, we provide expert business solutions tailored to drive growth, improve efficiency, and maximize success. Our strategic insights and innovative approaches help businesses navigate challenges and achieve their full potential
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Explore Us</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Collection</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog & News</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Account</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Feedback</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support Center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Get in Touch</p>
+
+          <p class="footer-text">
+            Question or feedback?
+            We’d love to hear from you
+          </p>
+
+          <a href="#" class="btn">
+            <span class="span">Contact Us</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2025 Rindeth Consulting. All Right Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./js/scripts.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    document.addEventListener("DOMContentLoaded", function () {
+  const readMoreButtons = document.querySelectorAll(".read-more-btn");
+
+  readMoreButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      const card = button.closest(".team__card");
+      const moreText = card.querySelector(".more-text");
+
+      if (moreText.style.display === "none" || !moreText.style.display) {
+        moreText.style.display = "inline";
+        button.textContent = "Show Less";
+      } else {
+        moreText.style.display = "none";
+        button.textContent = "Read More";
+      }
+    });
+  });
+});
+
+
+  </script>
+
+</body>
+
+</html>
